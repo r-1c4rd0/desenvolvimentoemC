@@ -14,7 +14,7 @@ main (void)
 }
 void PrintString (char *str, int (* func)(const char *))
 {
-	(* func)(str);   /* cahmada a função através do ponteiro para função */
+	(* func)(str);   /* chamada a função através do ponteiro para função */
 	func(str);       /* maneira também válida de se fazer a chamada a função puts
 						através do ponteiro para função func*/
 }
