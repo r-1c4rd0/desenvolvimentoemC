@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-void PrintSring (char *str, int (*func)(const char*));
+void PrintString (char *str, int (*func)(const char*));
 main (void)
 {
 	char String [20]="Curso de C.";
